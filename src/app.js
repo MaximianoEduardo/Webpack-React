@@ -3,12 +3,16 @@
 // React Imports
 import React from 'react'
 import ReactDom from 'react-dom'
-
+import Title from './title'
 
 
 const App = React.createClass({
   render: function () {
-    return <h1>Aplicação</h1>
+    return (
+      <div>
+        <Title name= 'Eduardo Maximiano' />
+      </div>
+    )
   }
 })
 

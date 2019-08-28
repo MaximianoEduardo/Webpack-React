@@ -9,8 +9,9 @@ import Title from './title'
 const App = React.createClass({
   render: function () {
     return (
-      <div>
-        <Title name= 'Eduardo Maximiano' />
+      <div className="container">
+        <Title name= 'Eduardo' lastname='Maximiano' />
+
       </div>
     )
   }
